@@ -1,0 +1,96 @@
+.item_new{
+    width: 100%;
+    height: 250px;
+}
+.list-group{
+    margin: 0 270px;
+}
+.menu-web{
+    white-space: nowrap;
+}
+.map-fix{
+    width: 100%;
+    height: 450px;
+}
+.owl-carousel{
+    display: block;
+}
+.owl-carousel.owl-drag .owl-item{
+    width: 10%;
+}
+.owl-carousel .owl-stage-outer{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.owl-prev{
+    position: absolute;
+    bottom: -10%;
+    left: 2%;
+}
+.owl-prev span{
+    display: block;
+    font-size: 50px;
+}
+.owl-next{
+    position: absolute;
+    bottom: -10%;
+    right: 2%;
+}
+.owl-next span{
+    display: block;
+    font-size: 50px;
+}
+.owl-theme .owl-dots{
+    display: none;
+}
+.list-group-item:last-child{
+    width: 100%;
+}
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled   {
+    display: block;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+    display: none;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+    color: white;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: transparent;
+}
+@media only screen and (max-width: 320px){
+    .list-group-item:last-child{
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .search .form-control{
+        position: relative;
+    }
+    .btn-search{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50%;
+    }
+    
+} 
+
+@media only screen and (max-width: 1400px){
+    .search .form-control{
+        position: relative;
+    }
+    .btn-search{
+        position: absolute;
+        top: 15%;
+        right: 0;
+        z-index: 999;
+    }
+}
+  
+@media only screen and (max-width: 2600px) {
+    .title-km{
+        margin-top: -4%;
+    }
+}
