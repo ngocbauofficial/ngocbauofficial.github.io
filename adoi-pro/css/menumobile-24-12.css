@@ -13,14 +13,14 @@
           
           color:#e4002b;
           font-weight: bold;
-          font-size: 19px;
+          font-size: 20px;
 }
-                .change-selectmenu option{
+ .change-selectmenu option{
                   color:black;
                   font-size:20px;
-                  font-family: Myriadpro;
+                 
                   font-weight: bold;
-              } 
+ } 
               form {
                 
                 width: 60%;
@@ -50,7 +50,7 @@
                 background: #333;
                 color: #FFF;
                 padding: 3px 8px;
-                top: 5px;
+                top: 7px;
                 right: 10px;
                 z-index: 1;
               }
