@@ -1,0 +1,200 @@
+.product-detail-img
+{
+    height: 391px;
+    width: 391px;
+    background: center;
+    background-size: cover;
+    
+}
+header#header .main-nav .main-nav-wrap > ul {
+display: none !important;
+}
+.item-name{
+    font-size: 24px;
+    font-weight: 300;
+    color: #333;
+    line-height: 30px;
+    margin: 16px 0 5px;
+}
+.checked{
+    color:#ffc120;
+}
+.rating-star span{
+    
+}
+.view-comment{
+    font-size: 13px;
+}
+.item-bestseller{
+    margin: 0;
+    background: url(../img/icon-detail/ic-prize@2x.png) center left no-repeat;
+    background-size: 18px;
+    height: 24px;
+    padding: 0 0 0 25px;
+    line-height: 24px;
+    font-size: 13px;
+}
+#span-price{
+   
+    color: #ff3425;
+    font-size: 19px;
+    font-weight: 500;
+}
+.installment-tooltip{
+    display: inline-block;
+    color: #007ff0;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.desc-installment{
+    display: none;
+    position: absolute;
+    white-space: normal;
+    line-height: 17px;
+    padding: 7px;
+    position: absolute;
+    background: #fff;
+    color: #333;
+    right: -20px;
+    top: 23px;
+    width: 250px;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.26);
+    box-shadow: 0 2px 4px rgba(0,0,0,.26);
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.installment-tooltip:hover .desc-installment{
+display: block;    
+}
+.saleoff-price-item  {
+    font-size: 13px;
+    margin: 4px 0;
+    font-weight: 300;
+    color: #9b9b9b;
+}
+.old-price-item{
+    font-size: 13px;
+    margin: 4px 0;
+    font-weight: 300;
+    color: #9b9b9b;
+}
+#span-discount-percent{
+    font-weight: 400;
+    color: #ff3425;
+    font-size: 13px;
+}
+
+
+.bullet-wrap{
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-right: 26px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ececec;
+}
+.bullet-wrap p{
+    padding: 0 0 0 20px!important;
+    margin: 0 0 5px;
+    font-size: 13px;
+    position: relative
+}
+.bullet-wrap p::before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #6d6d6d;
+    left: 0;
+    position: absolute;
+    top: 5px;
+}
+.color-product{
+    list-style: none;
+}
+.color-product li {
+    float: left;
+    display: block;
+    text-align: center;
+    
+}
+.select-color span{
+    font-weight: 300;
+    font-size: 13px;
+    color: #8e8e8e;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.select-color span strong{
+    color: #303030;
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 6px;
+}
+.color-product li a{
+    color: #189eff;
+    
+    border: 1px solid #189eff;
+    display: block;
+    padding: 5px 14px;
+    background: #fff;
+    margin-right: 15px;
+    font-weight: 400;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.color-product li a:hover{
+    color: #fff ;
+    background: #189eff ;
+}
+.color-active{
+    color: #fff !important;
+    background: #189eff !important;
+}
+.select-color span{
+    margin: 10px;
+}
+
+.col-md-5-style{
+    border-right: 2px solid #f7f7f7;
+    width: 527px;
+    padding: 24px 24px 20px 20px;
+}
+.col-md-7-style{
+    width: 711px;
+    padding: 0 24px;
+}
+.row-style{
+    background: #fff;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+header#header .main-nav .main-nav-wrap:hover ul  {
+    display: block !important;
+    top:30px;  
+}
+header#header .main-nav .main-nav-wrap ul {
+ padding-top: 14px;
+}
+.main-nav-wrap{
+    padding-bottom:15px;
+}
+.widthdemo .bootstrap-touchspin {
+    width:150px;
+}
+
+.widthdemo .bootstrap-touchspin input {
+    text-align: center;
+}
