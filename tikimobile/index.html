@@ -23,13 +23,13 @@
   <!--jSide Menu Plugin-->
   <script src="js/jquery.jside.menu.js"></script>
   <!--jSide Menu CSS-->
-  <link rel="stylesheet" href="css/jside-menu.css" />
+  <link rel="stylesheet" href="css/mjside-menu.css" />
   <!--jSide Skins-->
-  <link rel="stylesheet" href="css/jside-skins.css" />
+  <link rel="stylesheet" href="css/mjside-skins.css" />
 
-  <link rel="stylesheet" href="css/slick.css" />
-  <link rel="stylesheet" href="css/slick-theme.css" />
-
+  <link rel="stylesheet" href="css/mslick.css" />
+  <link rel="stylesheet" href="css/mslick-theme.css" />
+  <link rel="stylesheet" href="css/fix.css">
 
 
   <script>
@@ -50,28 +50,16 @@
 <body>
 
   <menu class="menubar">
-    <menuitem>
     <button class="menu-trigger"><i class="fas fa-bars"></i> </button>
-    </menuitem>
-
-    <menuitem class="search-logo">
-    <div class="search-container">
-      <form action="/action_page.php" class="search-nav">
-        <input type="text" class="input-search" placeholder="Bạn đang tìm sản phẩm gì? " name="search">
-
-      </form>
+    <div class="search-logo">
+      <div class="search-container">
+        <form action="/action_page.php" class="search-nav">
+          <input type="text" class="input-search" placeholder="Bạn đang tìm sản phẩm gì? " name="search">
+        </form>
+      </div>
     </div>
-
-    </menuitem>
-    <menuitem>
     <a class="card-trigger"><i class="fas fa-shopping-cart"></i> </a>
-    </menuitem>
-
   </menu>
-
-
-
-
   <div class="menu-head">
     <span class="layer">
       <div class="col">
@@ -89,13 +77,10 @@
     </span>
   </div>
   <!--//menu-head-->
-
   <nav class="menu-container">
-
     <ul class="menu-items">
       <li><span class="item-icon"><i class="fas fa-home"></i></span> <a href="#1">
           Trang Chủ </a></li>
-
       <li> <span class="item-icon"> <i class="fas fa-list-ul"></i> </span> <a href="#1">
           Danh sách ngành hàng</a></li>
 
@@ -126,35 +111,24 @@
 
       <li> <span class="item-icon"> <i class="far fa-user"></i> </span> <a href="#1">
           Quản lý tài khoản</a></li>
-
       <li> <span class="item-icon"> <i class="fas fa-bell"></i></span> <a href="#1">
           Thông báo</a></li>
-
     </ul>
     <ul class="menu-items sale-menu">
       <span>Khuyến mãi hot</span>
       <li><a href="#1">
           Tiki Deal</a></li>
-
       <li> <a href="#1">
           Phiếu Quà Tặng</a></li>
-
-
-
       <li> <a href="#1">
           Ưu đãi cho chủ thẻ ngân hàng</a></li>
-
-
-
     </ul>
     <ul class="menu-items sale-menu">
       <span> Hỗ Trợ</span>
       <li><span class="item-icon"><i class="zmdi zmdi-android"></i></span> <a href="#1">
           Hotline 1800-6963 (1000đ/1 phút)</a></li>
     </ul>
-
   </nav>
-
   <div class="dim-overlay"></div>
   <header class="intro">
     <p style="margin-bottom:3rem"></p>
@@ -162,15 +136,15 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="https://salt.tikicdn.com/cache/w750/ts/banner/17/ec/df/4f6b5d69da9b056f2215bdff185bef0c.jpg"
+            <img class="d-block w-100" src="https://salt.tikicdn.com/cache/w750/ts/banner/f8/8b/4b/03b13d498cd7d59dfb0f7eb075695b8e.jpg"
               alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://salt.tikicdn.com/cache/w750/ts/banner/17/ec/df/4f6b5d69da9b056f2215bdff185bef0c.jpg"
+            <img class="d-block w-100" src="https://salt.tikicdn.com/cache/w750/ts/banner/f8/8b/4b/03b13d498cd7d59dfb0f7eb075695b8e.jpg"
               alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://salt.tikicdn.com/cache/w750/ts/banner/17/ec/df/4f6b5d69da9b056f2215bdff185bef0c.jpg"
+            <img class="d-block w-100" src="https://salt.tikicdn.com/cache/w750/ts/banner/2d/e0/ed/fd74bbf5e50e24f9387c3c3b3c859d63.jpg"
               alt="Third slide">
           </div>
         </div>
@@ -193,12 +167,12 @@
       <a>Xem tất cả</a>
 
     </div>
-    <div class="list-category-product" >
-      <div class="item-list" >
+    <div class="list-category-product">
+      <div class="item-list">
         <div class="item-img">
           <a>
             <img src="https://salt.tikicdn.com/ts/category/3f/f2/53/ce9ef21c9d5e4eac31780c231b50a299.png">
-            <span>Thời Trang</span>
+            <span>Nha sach tiki</span>
           </a>
         </div>
         <div class="item-img">
@@ -261,628 +235,623 @@
       <span>
         Dịch vụ tiện ích
       </span>
-    
-     <div>
-          <div class="list-sevirce">
-            <div class="list-item-sevirce">
-              <a>
-                <img src="https://frontend.tikicdn.com/img/icons/the-data.svg">
-                <span>Thẻ 3G/4G</span>
-              </a>
-            </div>
-            <div class="list-item-sevirce">
-              <a>
-                <img src="https://frontend.tikicdn.com/img/icons/ve-may-bay.svg">
-                <span>Vé Máy Bay</span>
-              </a>
-            </div>
-            <div class="list-item-sevirce">
-              <a>
-                <img src="https://frontend.tikicdn.com/img/icons/fwd.svg">
-                <span>Bảo Hiểm Online</span>
-              </a>
-            </div>
-            <div class="list-item-sevirce">
-              <a>
-                <img src="https://frontend.tikicdn.com/img/icons/the-data.svg">
-                <span>Thẻ 3G/4G</span>
-              </a>
-            </div>
-            <div class="list-item-sevirce">
-              <a>
-                <img src="https://frontend.tikicdn.com/img/icons/the-data.svg">
-                <span>Thẻ 3G/4G</span>
-              </a>
-            </div>
-            <div class="list-item-sevirce">
-              <a>
-                <img src="https://frontend.tikicdn.com/img/icons/the-data.svg">
-                <span>Thẻ 3G/4G</span>
-              </a>
-            </div>
-            <div class="list-item-sevirce">
-              <a>
-                <img src="https://frontend.tikicdn.com/img/icons/the-data.svg">
-                <span>Thẻ 3G/4G</span>
-              </a>
-            </div>
+
+      <div>
+        <div class="list-sevirce">
+          <div class="list-item-sevirce">
+            <a>
+              <img src="https://frontend.tikicdn.com/img/icons/the-data.svg">
+              <span>Thẻ 3G/4G</span>
+            </a>
           </div>
+          <div class="list-item-sevirce">
+            <a>
+              <img src="https://frontend.tikicdn.com/img/icons/ve-may-bay.svg">
+              <span>Vé Máy Bay</span>
+            </a>
+          </div>
+          <div class="list-item-sevirce">
+            <a>
+              <img src="https://frontend.tikicdn.com/img/icons/fwd.svg">
+              <span>Bảo Hiểm Online</span>
+            </a>
+          </div>
+          <div class="list-item-sevirce">
+            <a>
+              <img src="https://frontend.tikicdn.com/img/icons/the-data.svg">
+              <span>Thẻ 3G/4G</span>
+            </a>
+          </div>
+          <div class="list-item-sevirce">
+            <a>
+              <img src="https://frontend.tikicdn.com/img/icons/the-data.svg">
+              <span>Thẻ 3G/4G</span>
+            </a>
+          </div>
+          <div class="list-item-sevirce">
+            <a>
+              <img src="https://frontend.tikicdn.com/img/icons/the-data.svg">
+              <span>Thẻ 3G/4G</span>
+            </a>
+          </div>
+          <div class="list-item-sevirce">
+            <a>
+              <img src="https://frontend.tikicdn.com/img/icons/the-data.svg">
+              <span>Thẻ 3G/4G</span>
+            </a>
+          </div>
+        </div>
     </section>
     <section>
       <div class="title-slider">
         Lựa chọn cho bạn
+      </div>
+
+      <div class="slider-nav">
+        <div>
+          Điện da dụng
         </div>
-        
-            <div class="slider-nav">
-              <div>
-                Điện da dụng
-              </div>
-        
-              <div>
-                Mẹ và bé
-              </div>
-              <div>
-                điện thoại
-              </div>
-              <div>
-                laptop
-              </div>
-        
-            </div>
-        
-        
-        
-        
-            <div class="slider-for">
-              <div>
-                <div class="row">
-                  <div class="col-md-3 col-sm-4 col-6 col-product">
-                    <div class="slider-product-img">
-                      <span class="img-product">
-                        <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                      </span>
-        
-                      <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                      <span class="price">19.000.000 đ</span>
-                      <span class="price-old">21.000.000 đ</span>
-                      <span class="star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                      </span>
-                     
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-4 col-6  col-product">
-                    <div class="slider-product-img">
-                      <span class="img-product">
-                        <img src="https://salt.tikicdn.com/cache/w176/ts/product/cb/dd/b3/075a4a434bfa0ea3b69f9e3ee09ccaa3.jpg">
-                      </span>
-        
-                      <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                      <span class="price">19.000.000 đ</span>
-                      <span class="star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                      </span>
-                    </div>
-                  </div>
-               
-                <div class="col-md-3 col-sm-4 col-6  col-product">
-                  <div class="slider-product-img">
-                    <span class="img-product">
-                      <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                    </span>
-        
-                    <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                    <span class="price">19.000.000 đ</span>
-                    <span class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </span>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-4 col-6  col-product">
-              
-                  <div class="slider-product-img">
-                    <span class="img-product">
-                      <img src="https://salt.tikicdn.com/cache/w176/ts/product/7f/6b/06/0dfbfb741726ebf3306a6d2f94ff20f1.jpg">
-                    </span>
-        
-                    <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                    <span class="price">19.000.000 đ</span>
-                    <span class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="view-add">
-                <a>
-                  <span>Xem Thêm</span>
-                </a>
-              </div>
-            </div>
-            <div>
-                <div class="row">
-                  <div class="col-md-3 col-sm-4 col-6 col-product">
-                    <div class="slider-product-img">
-                      <span class="img-product">
-                        <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                      </span>
-        
-                      <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                      <span class="price">19.000.000 đ</span>
-                      <span class="star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                      </span>
-                     
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-4 col-6  col-product">
-                    <div class="slider-product-img">
-                      <span class="img-product">
-                        <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                      </span>
-        
-                      <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                      <span class="price">19.000.000 đ</span>
-                      <span class="star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                      </span>
-                    </div>
-                  </div>
-               
-                <div class="col-md-3 col-sm-4 col-6  col-product">
-                  <div class="slider-product-img">
-                    <span class="img-product">
-                      <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                    </span>
-        
-                    <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                    <span class="price">19.000.000 đ</span>
-                    <span class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </span>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-4 col-6  col-product">
-              
-                  <div class="slider-product-img">
-                    <span class="img-product">
-                      <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                    </span>
-        
-                    <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                    <span class="price">19.000.000 đ</span>
-                    <span class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-              <div>
-                điện thoại
-              </div>
-              <div>
-                laptop
-              </div>
-        
-            </div>
-    </section>
-    <section>
-      <div class="title-slider">
-        Lựa chọn cho bạn
+
+        <div>
+          Mẹ và bé
         </div>
-        
-            <div class="slider-nav-1">
-              <div>
-                Điện da dụng
-              </div>
-        
-              <div>
-                Mẹ và bé
-              </div>
-              <div>
-                điện thoại
-              </div>
-              <div>
-                laptop
-              </div>
-        
-            </div>
-        
-        
-        
-        
-            <div class="slider-for-1">
-              <div>
-                <div class="row">
-                  <div class="col-md-3 col-sm-4 col-6 col-product">
-                    <div class="slider-product-img">
-                      <span class="img-product">
-                        <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                      </span>
-        
-                      <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                      <span class="price">19.000.000 đ</span>
-                      <span class="price-old">21.000.000 đ</span>
-                      <span class="star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                      </span>
-                     
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-4 col-6  col-product">
-                    <div class="slider-product-img">
-                      <span class="img-product">
-                        <img src="https://salt.tikicdn.com/cache/w176/ts/product/cb/dd/b3/075a4a434bfa0ea3b69f9e3ee09ccaa3.jpg">
-                      </span>
-        
-                      <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                      <span class="price">19.000.000 đ</span>
-                      <span class="star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                      </span>
-                    </div>
-                  </div>
-               
-                <div class="col-md-3 col-sm-4 col-6  col-product">
-                  <div class="slider-product-img">
-                    <span class="img-product">
-                      <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                    </span>
-        
-                    <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                    <span class="price">19.000.000 đ</span>
-                    <span class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </span>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-4 col-6  col-product">
-              
-                  <div class="slider-product-img">
-                    <span class="img-product">
-                      <img src="https://salt.tikicdn.com/cache/w176/ts/product/7f/6b/06/0dfbfb741726ebf3306a6d2f94ff20f1.jpg">
-                    </span>
-        
-                    <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                    <span class="price">19.000.000 đ</span>
-                    <span class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="view-add">
-                <a>
-                  <span>Xem Thêm</span>
-                </a>
+        <div>
+          điện thoại
+        </div>
+        <div>
+          laptop
+        </div>
+      </div>
+      <div class="slider-for">
+        <div>
+          <div class="row">
+            <div class="col-md-3 col-sm-4 col-6 col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="price-old">21.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+
               </div>
             </div>
-            <div>
-                <div class="row">
-                  <div class="col-md-3 col-sm-4 col-6 col-product">
-                    <div class="slider-product-img">
-                      <span class="img-product">
-                        <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                      </span>
-        
-                      <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                      <span class="price">19.000.000 đ</span>
-                      <span class="star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                      </span>
-                     
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-4 col-6  col-product">
-                    <div class="slider-product-img">
-                      <span class="img-product">
-                        <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                      </span>
-        
-                      <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                      <span class="price">19.000.000 đ</span>
-                      <span class="star">
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star checked"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                      </span>
-                    </div>
-                  </div>
-               
-                <div class="col-md-3 col-sm-4 col-6  col-product">
-                  <div class="slider-product-img">
-                    <span class="img-product">
-                      <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                    </span>
-        
-                    <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                    <span class="price">19.000.000 đ</span>
-                    <span class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </span>
-                  </div>
-                </div>
-                <div class="col-md-3 col-sm-4 col-6  col-product">
-              
-                  <div class="slider-product-img">
-                    <span class="img-product">
-                      <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                    </span>
-        
-                    <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                    <span class="price">19.000.000 đ</span>
-                    <span class="star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </span>
-                  </div>
-                </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/cb/dd/b3/075a4a434bfa0ea3b69f9e3ee09ccaa3.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
               </div>
-            </div>
-              <div>
-                điện thoại
-              </div>
-              <div>
-                laptop
-              </div>
-        
             </div>
 
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/7f/6b/06/0dfbfb741726ebf3306a6d2f94ff20f1.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="view-add">
+            <a>
+              <span>Xem Thêm</span>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-md-3 col-sm-4 col-6 col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          điện thoại
+        </div>
+        <div>
+          laptop
+        </div>
+
+      </div>
     </section>
-            <section>
-            
-                  <div class="title-slider">
-                    Lựa chọn cho bạn
-                    </div>
-                    
-                        <div class="slider-nav-2">
-                          <div>
-                            Điện da dụng
-                          </div>
-                    
-                          <div>
-                            Mẹ và bé
-                          </div>
-                          <div>
-                            điện thoại
-                          </div>
-                          <div>
-                            laptop
-                          </div>
-                    
-                        </div>
-                    
-                    
-                    
-                    
-                        <div class="slider-for-2">
-                          <div>
-                            <div class="row">
-                              <div class="col-md-3 col-sm-4 col-6 col-product">
-                                <div class="slider-product-img">
-                                  <span class="img-product">
-                                    <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                                  </span>
-                    
-                                  <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                                  <span class="price">19.000.000 đ</span>
-                                  <span class="price-old">21.000.000 đ</span>
-                                  <span class="star">
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star"></span>
-                                      <span class="fa fa-star"></span>
-                                  </span>
-                                 
-                                </div>
-                              </div>
-                              <div class="col-md-3 col-sm-4 col-6  col-product">
-                                <div class="slider-product-img">
-                                  <span class="img-product">
-                                    <img src="https://salt.tikicdn.com/cache/w176/ts/product/cb/dd/b3/075a4a434bfa0ea3b69f9e3ee09ccaa3.jpg">
-                                  </span>
-                    
-                                  <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                                  <span class="price">19.000.000 đ</span>
-                                  <span class="star">
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star"></span>
-                                      <span class="fa fa-star"></span>
-                                  </span>
-                                </div>
-                              </div>
-                           
-                            <div class="col-md-3 col-sm-4 col-6  col-product">
-                              <div class="slider-product-img">
-                                <span class="img-product">
-                                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                                </span>
-                    
-                                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                                <span class="price">19.000.000 đ</span>
-                                <span class="star">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                              </div>
-                            </div>
-                            <div class="col-md-3 col-sm-4 col-6  col-product">
-                          
-                              <div class="slider-product-img">
-                                <span class="img-product">
-                                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/7f/6b/06/0dfbfb741726ebf3306a6d2f94ff20f1.jpg">
-                                </span>
-                    
-                                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                                <span class="price">19.000.000 đ</span>
-                                <span class="star">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="view-add">
-                            <a>
-                              <span>Xem Thêm</span>
-                            </a>
-                          </div>
-                        </div>
-                        <div>
-                            <div class="row">
-                              <div class="col-md-3 col-sm-4 col-6 col-product">
-                                <div class="slider-product-img">
-                                  <span class="img-product">
-                                    <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                                  </span>
-                    
-                                  <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                                  <span class="price">19.000.000 đ</span>
-                                  <span class="star">
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star"></span>
-                                      <span class="fa fa-star"></span>
-                                  </span>
-                                 
-                                </div>
-                              </div>
-                              <div class="col-md-3 col-sm-4 col-6  col-product">
-                                <div class="slider-product-img">
-                                  <span class="img-product">
-                                    <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                                  </span>
-                    
-                                  <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                                  <span class="price">19.000.000 đ</span>
-                                  <span class="star">
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star checked"></span>
-                                      <span class="fa fa-star"></span>
-                                      <span class="fa fa-star"></span>
-                                  </span>
-                                </div>
-                              </div>
-                           
-                            <div class="col-md-3 col-sm-4 col-6  col-product">
-                              <div class="slider-product-img">
-                                <span class="img-product">
-                                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                                </span>
-                    
-                                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                                <span class="price">19.000.000 đ</span>
-                                <span class="star">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                              </div>
-                            </div>
-                            <div class="col-md-3 col-sm-4 col-6  col-product">
-                          
-                              <div class="slider-product-img">
-                                <span class="img-product">
-                                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
-                                </span>
-                    
-                                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
-                                <span class="price">19.000.000 đ</span>
-                                <span class="star">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                          <div>
-                            điện thoại
-                          </div>
-                          <div>
-                            laptop
-                          </div>
-                    
-                        </div>
-                    
+    <section>
+      <div class="title-slider">
+        Lựa chọn cho bạn
+      </div>
+
+      <div class="slider-nav-1">
+        <div>
+          Điện da dụng
+        </div>
+
+        <div>
+          Mẹ và bé
+        </div>
+        <div>
+          điện thoại
+        </div>
+        <div>
+          laptop
+        </div>
+
+      </div>
+
+
+
+
+      <div class="slider-for-1">
+        <div>
+          <div class="row">
+            <div class="col-md-3 col-sm-4 col-6 col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="price-old">21.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/cb/dd/b3/075a4a434bfa0ea3b69f9e3ee09ccaa3.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/7f/6b/06/0dfbfb741726ebf3306a6d2f94ff20f1.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="view-add">
+            <a>
+              <span>Xem Thêm</span>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-md-3 col-sm-4 col-6 col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          điện thoại
+        </div>
+        <div>
+          laptop
+        </div>
+
+      </div>
+
+    </section>
+    <section>
+
+      <div class="title-slider">
+        Lựa chọn cho bạn
+      </div>
+
+      <div class="slider-nav-2">
+        <div>
+          Điện da dụng
+        </div>
+
+        <div>
+          Mẹ và bé
+        </div>
+        <div>
+          điện thoại
+        </div>
+        <div>
+          laptop
+        </div>
+
+      </div>
+
+
+
+
+      <div class="slider-for-2">
+        <div>
+          <div class="row">
+            <div class="col-md-3 col-sm-4 col-6 col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="price-old">21.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/cb/dd/b3/075a4a434bfa0ea3b69f9e3ee09ccaa3.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/7f/6b/06/0dfbfb741726ebf3306a6d2f94ff20f1.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="view-add">
+            <a>
+              <span>Xem Thêm</span>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-md-3 col-sm-4 col-6 col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6  col-product">
+
+              <div class="slider-product-img">
+                <span class="img-product">
+                  <img src="https://salt.tikicdn.com/cache/w176/ts/product/1a/f0/a2/0978d091d83849160e6d31945ce9ae08.jpg">
+                </span>
+
+                <span class="product-name">Điện Thoại iPhone X 64GB Hàng Chính Hãng </span>
+                <span class="price">19.000.000 đ</span>
+                <span class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          điện thoại
+        </div>
+        <div>
+          laptop
+        </div>
+
+      </div>
+
     </section>
 
     <script src="code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -908,7 +877,7 @@
       });
 
     </script>
-     <script>
+    <script>
 
       $('.slider-for-2').slick({
         slidesToShow: 1,
@@ -927,7 +896,7 @@
       });
 
     </script>
-     <script>
+    <script>
 
       $('.slider-for-1').slick({
         slidesToShow: 1,

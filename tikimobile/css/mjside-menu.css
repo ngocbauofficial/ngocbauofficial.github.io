@@ -391,8 +391,18 @@ padding-left: 2%;
 }
 .search-nav input{
 height:10%;
-
+outline: none;
+border: none;
+border-radius: 5px;
+position: relative;
 width: 66%;
+}
+.fa-search{
+   position: absolute;
+   right: 18%;
+   top: 30%;
+   font-size: 20px;
+   color: #b9c6e9;
 }
 .search-nav{
    padding-top:3px;

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title> CircleVN </title>
+    <meta name="description" content="jSide Menu is a free jQuery menu plugin that helps you create side vertical navigation menu with dropdowns, fully responsive and customizable." />
+
+    <!--Google Fonts-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Hind|Oxygen" rel="stylesheet" />
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!--Material Design Iconic Font-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <!--jSide Menu Plugin-->
+    <script src="js/jquery.jside.menu.js"></script>
+    <!--jSide Menu CSS-->
+    <link rel="stylesheet" href="css/mjside-menu.css" />
+    <!--jSide Skins-->
+    <link rel="stylesheet" href="css/mjside-skins.css" />
+    <link rel="stylesheet" href="js/magnific-popup.css">
+    <link rel="stylesheet" href="css/mslick.css" />
+    <link rel="stylesheet" href="css/mslick-theme.css" />
+    <link rel="stylesheet" href="css/fix.css">
+    <link rel="stylesheet" href="css/mb2.css">
+
+    <script>
+        $(document).ready(function () {
+
+            $(".menu-container").jSideMenu({
+                jSidePosition: "position-left", //possible options position-left or position-right
+                jSideSticky: true, // menubar will be fixed on top, false to set static
+                jSideSkin: "default-skin", // to apply custom skin, just put its name in this string
+            });
+        }); 
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <menu class="menubar">
+            <button class="menu-trigger"><i class="fas fa-bars"></i> </button>
+            <div class="search-logo">
+                <div class="search-container">
+                    <form action="/action_page.php" class="search-nav">
+                        <input type="text" class="input-search" placeholder="Bạn đang tìm sản phẩm gì? " name="search">
+                    </form>
+                </div>
+            </div>
+            <a class="card-trigger"><i class="fas fa-shopping-cart"></i> </a>
+        </menu>
+        <div class="menu-head">
+            <span class="layer">
+                <div class="col">
+                    <div class="row for-pic">
+                        <div class="profile-pic">
+
+                        </div>
+                    </div>
+                    <div class="row for-name">
+                        <h3 title="User Name"> Đăng nhập </h3>
+                        <span class="tagline"> Nhận nhiều ưu đãi hơn</span>
+                    </div>
+                </div>
+                <!--//col-->
+            </span>
+        </div>
+        <!--//menu-head-->
+        <nav class="menu-container">
+            <ul class="menu-items">
+                <li><span class="item-icon"><i class="fas fa-home"></i></span> <a href="#1">
+                        Trang Chủ </a></li>
+                <li> <span class="item-icon"> <i class="fas fa-list-ul"></i> </span> <a href="#1">
+                        Danh sách ngành hàng</a></li>
+
+                <!-- <li class="has-sub"> <span class="item-icon"> <i class="zmdi zmdi-windows"></i> </span>
+                   <span class="dropdown-heading">
+                    Item three with dropdown </span> 
+                        <ul> 
+                         <li> <a href="#2">dropdown sub item 1 </a> </li>
+                        <li> <a href="#2"> dropdown sub item 2 </a> </li>
+                         <li> <a href="#2"> dropdown sub item 3 </a> </li>
+                        <li> <a href="#2"> dropdown sub item 4 </a> </li>
+                         <li> <a href="#2"> dropdown sub item 5 </a> </li>
+                   <li> <a href="#2"> dropdown sub item 6 </a> </li>
+                   <li> <a href="#2"> dropdown sub item 7 </a> </li>
+                        </ul> 
+                    </li> -->
+                <!-- <li class="has-sub"> <span class="item-icon"> <i class="zmdi zmdi-devices"></i> </span>
+                    <span class="dropdown-heading">
+                   
+                    Item four with dropdown </span> 
+                        <ul> 
+                         <li> <a href="#2">sub item 1 </a> </li>
+                         <li> <a href="#2">sub item 2 </a> </li>
+                         <li> <a href="#2">sub item 3 </a> </li>
+                        <li> <a href="#2">sub item 4 </a> </li>
+                        </ul> 
+                    </li> -->
+                <li> <span class="item-icon"> <i class="far fa-user"></i> </span> <a href="#1">
+                        Quản lý tài khoản</a></li>
+                <li> <span class="item-icon"> <i class="fas fa-bell"></i></span> <a href="#1">
+                        Thông báo</a></li>
+            </ul>
+            <ul class="menu-items sale-menu">
+                <span>Khuyến mãi hot</span>
+                <li><a href="#1">
+                        Tiki Deal</a></li>
+                <li> <a href="#1">
+                        Phiếu Quà Tặng</a></li>
+                <li> <a href="#1">
+                        Ưu đãi cho chủ thẻ ngân hàng</a></li>
+            </ul>
+            <ul class="menu-items sale-menu">
+                <span> Hỗ Trợ</span>
+                <li><span class="item-icon"><i class="zmdi zmdi-android"></i></span> <a href="#1">
+                        Hotline 1800-6963 (1000đ/1 phút)</a></li>
+            </ul>
+        </nav>
+        <div class="dim-overlay"></div>
+    </header>
+    <section>
+        <div class="list-list-items container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                            href="#list-home" role="tab" aria-controls="home">Tong quan</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                            href="#list-profile" role="tab" aria-controls="profile">Mo ta</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                            href="#list-messages" role="tab" aria-controls="messages">Nhan xet</a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                            <div class="slider responsive" role="toolbar">
+                                <div class="popup-gallery">
+                                    <a href="https://salt.tikicdn.com/cache/550x550/ts/product/43/5b/79/16f9e280340ff63da4e7cab4e1218c66.jpg"
+                                        title="The Cleaner"><img src="https://salt.tikicdn.com/cache/550x550/ts/product/43/5b/79/16f9e280340ff63da4e7cab4e1218c66.jpg"
+                                            class="img-fluid m-auto"></a>
+                                </div>
+                                <div class="popup-gallery">
+                                    <a href="https://salt.tikicdn.com/cache/550x550/ts/product/79/1d/0d/bde00dc7deb3484ab626af6ee4f0cf30.jpg"
+                                        title="The Cleaner"><img src="https://salt.tikicdn.com/cache/550x550/ts/product/79/1d/0d/bde00dc7deb3484ab626af6ee4f0cf30.jpg"
+                                            class="img-fluid m-auto"></a>
+                                </div>
+                                <div class="popup-gallery">
+
+                                    <a href="https://salt.tikicdn.com/cache/550x550/ts/product/f6/dd/4e/472de962f467da7b53f28b19813466cb.jpg"
+                                        title="The Cleaner"><img src="https://salt.tikicdn.com/cache/550x550/ts/product/f6/dd/4e/472de962f467da7b53f28b19813466cb.jpg"
+                                            class="img-fluid m-auto"></a>
+                                </div>
+                                <div class="popup-gallery">
+                                    <a href="https://salt.tikicdn.com/cache/550x550/ts/product/15/94/dd/f34aab466553139bd626b2ab27f571df.jpg"
+                                        title="The Cleaner"><img src="https://salt.tikicdn.com/cache/550x550/ts/product/15/94/dd/f34aab466553139bd626b2ab27f571df.jpg"
+                                            class="img-fluid m-auto"></a>
+                                </div>
+                            </div>
+                            <div class="title-bottom">
+                                <h1 class="product-detail-name">
+                                    Điện Thoại OPPO F3 - Hàng Chính Hãng
+                                </h1>
+                            </div>
+                            <div class="installemnt-block"><img src="https://frontend.tikicdn.com/img/icons/installment.svg"
+                                    height="20px">
+                                <span class="installment-price">
+                                    Chỉ 315.833đ/tháng trong 12 tháng
+                                </span>
+                                <a href="">(?)</a>
+                            </div>
+                            <div class="delivery-zone">
+                                <i class="fas fa-map-marker-alt pr-1">Phường Hiệp Bình Phước, Quận Thủ Đức, Hồ Chí Minh
+                                </i>
+                            </div>
+                            <div class="product-review-rating">
+                                <div class="price">
+                                    <div class="product-price">
+                                        <div class="price--discount-rate">10%</div>
+                                        <div class="price-amount">
+                                            <span class="product-detail-price"> 180.000 đ</span>
+                                            <span class="product-list-price">200.000 đ</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <div class="rating">
+                                        <a href=""><i class="far fa-star"></i></a>
+                                        <a href=""><i class="far fa-star"></i></a>
+                                        <a href=""><i class="far fa-star"></i></a>
+                                        <a href=""><i class="far fa-star"></i></a>
+                                        <a href=""><i class="far fa-star"></i></a>
+                                        <div class="product-review-count">(9 nhận xét)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="countdown-2h">
+                                <img class="icon" src="https://frontend.tikicdn.com/img/icons/ship.svg">
+                                <div class="text">Giao tiêu chuẩn: Dự kiến giao Thứ bảy - Chủ nhật, 26/01 - 27/01</div>
+                            </div>
+                            <div class="variants-list">
+                                <div class="variant-item ">
+                                    <h3 class="variant-heading">Màu/mẫu:</h3><strong class="selected-variant">Đen</strong>
+                                    <div class="arrow-icon">
+                                        <span class="other-select">1 lựa chọn khác</span>
+                                        <i class="fas fa-angle-right material-icons"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="seller-wrap">
+                                <a class="seller-item has-logo" href="">
+                                    <div class="info">
+                                        <h3 class="heading">Cung cấp bởi:</h3>
+                                        <span class="seller-name">Tiki Trading</span>
+                                    </div>
+                                    <div>
+                                        <img class="logo" src="https://vcdn.tikicdn.com/ts/seller/ef/54/5a/ef545a8af0f0385f706be0595f932f89.png"
+                                            alt="Tiki Trading"></div>
+                                </a>
+                            </div>
+                            <div class="simple-box-container gift-box">
+                                <h3 class="simple-box-heading">
+                                    <span>Quà tặng miễn phí</span>
+                                </h3>
+                                <div class="simple-box-body">
+                                    <div class="gift-box-list">
+                                        <div class="gift-box-item">
+                                            <div class="_object">
+                                                <img src="https://salt.tikicdn.com/cache/200x280/ts/product/a1/5b/ff/43bac8ead0bf1281fdc7f7756a28946a.jpg"
+                                                    alt="Gift Image" class="img-responsive">
+                                            </div>
+                                            <div class="_body">
+                                                <h3 class="_name">[Gift] Bao Da Tekin Oppo F3 (Gold) - Hàng Chính Hãng</h3>
+                                                <span class="_price">150.000 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="simple-box-container">
+                                <div class="simple-box-body simple-box-body__no-padding">
+                                    <a href="https://tiki.vn/chuong-trinh/uu-dai-hsbc" target="_blank">
+                                        <img src="https://salt.tikicdn.com/ts/banner/d5/0a/fd/f6cbe992c3306cc8c4a7769fd4c11004.jpg"
+                                            style="display: block; margin: 0; max-width: 100%;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="simple-box-container product-service">
+                                <h3 class="simple-box-heading"><span>Ưu đãi liên quan</span></h3>
+                                <div class="simple-box-body">
+                                    <ul class="tiki-list">
+                                        <li>
+                                            <div class="li"><span>Thời gian bảo hành: 12 tháng chính hãng tại Oppo Việt
+                                                    Nam</span>
+                                                <a href="http://tiki.vn/doi-tra-de-dang">Chi tiết</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="li"><span>Hình thức bảo hành: Điện tử</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="li"><span>HOTLINE: 1900 6035 (1.000đ/phút, 8-21h cả T7, CN)</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="li"><span>Hoàn tiền cho thành viên TikiNOW (tối đa 100k/tháng)
+                                                    0.25% (9.475&nbsp;₫)</span><a href="https://tiki.vn/tikinow">Chi
+                                                    tiết</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="li"><span>Mua trả góp lãi suất 0% bằng thẻ tín dụng chỉ từ
+                                                    315.833VND/tháng trong 12 tháng.</span><a href="http://tiki.vn/tra-gop-0-phan-tram">Chi
+                                                    tiết</a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="simple-box-container product-detail">
+                                <h3 class="simple-box-heading"><span>Thông tin chi tiết</span></h3>
+                                <div class="simple-box-body">
+                                    <div>
+                                        <table class="table table-striped">
+                                            <colgroup>
+                                                <col width="60%">
+                                                <col width="40%">
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Thương hiệu</td>
+                                                    <td>
+                                                        <div>OPPO</div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Model</td>
+                                                    <td>
+                                                        <div>F3</div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Phụ kiện đi kèm</td>
+                                                    <td>
+                                                        <div>Cáp Micro USB, củ sạc, cáp Micro USB, tai nghe, dụng cụ
+                                                            lấy SIM, sách hướng dẫn, vỏ bảo vệ</div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Loại / Công nghệ màn hình</td>
+                                                    <td>
+                                                        <div>IPS LCD</div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Kích thước màn hình</td>
+                                                    <td>
+                                                        <div>5.5 inch</div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <td colspan="2" class="view-more-bar"><a class="view-more-btn" href="">
+                                                            Xem thêm thông tin
+                                                            <i class="fas fa-angle-down"></i>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="simple-box-container product-related">
+                                <h3 class="simple-box-heading"><span>Sản phẩm cùng thương hiệu</span></h3>
+                            </div>
+                            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+                            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- import lib -->
+    <script src="code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true
+        });
+    </script>
+    <script>
+        $('.slider-for-2').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav-2'
+        });
+        $('.slider-nav-2').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for-2',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true
+        });
+    </script>
+    <script>
+        $('.slider-for-1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav-1'
+        });
+        $('.slider-nav-1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for-1',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true
+        });
+    </script>
+    <script>
+        $('.responsive').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            arrows: false,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function (item) {
+                        return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
