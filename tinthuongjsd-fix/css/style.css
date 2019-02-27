@@ -478,7 +478,8 @@ body {
 }
 #mySidenav{
     background: white;
-    z-index: 10000;
+    z-index:9999999999999999999999999999999999999;
+height:100%;
 }
 .carousel-item img{
     display: block;
