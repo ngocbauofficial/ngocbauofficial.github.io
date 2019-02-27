@@ -478,7 +478,7 @@ body {
 }
 #mySidenav{
     background: white;
-    z-index:9999999999999999999999999999999999999;
+    z-index:1000;
 height:100%;
 }
 .carousel-item img{
@@ -539,7 +539,7 @@ height:100%;
         width: 96%;
     }
     .simplefilter li {
-        padding: 0 15px;
+        padding: 0 10px;
     }
     .navbar img {
         float: left;
