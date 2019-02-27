@@ -1,0 +1,609 @@
+/* .carousel-inner {
+    height: 70vh;
+} */
+
+@font-face {
+    font-family: UTM Neo Sans Intel;
+    src: url(../font/UTMNeoSansIntel.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: UTM Avo;
+    src: url(../font/utm-avobold.ttf)
+}
+
+@font-face {
+    font-family: UTM Avo bt;
+    src: url(../font/utm-avo.ttf);
+}
+
+body {
+    margin: 0 !important;
+}
+
+.header-top {
+    background: #edeaf1;
+    height: 42px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.image-right img {
+    width: 100%;
+    padding: 5px 0;
+}
+
+.image-right {
+    position: relative;
+    overflow: hidden;
+}
+
+.overly {
+    position: absolute;
+    background: #3b2882;
+    height: 30%;
+    bottom: 0;
+    width: 96%;
+    transition: all ease-in-out 0.4s;
+    overflow: hidden;
+}
+
+.overly-2 {
+    position: absolute;
+    background: #3b2882;
+    height: 0%;
+    top: 5px;
+    width: 96%;
+    transition: all ease-in-out 0.4s;
+    overflow: hidden;
+}
+
+.image-right:hover .overly-2 {
+    height: 100%;
+}
+
+.image-right:hover .overly {
+    height: 0%;
+}
+
+.content-one {
+    margin-top: 20px;
+}
+
+.simplefilter {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.simplefilter li, .multifilter li, .sortandshuffle li {
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 7px 2rem;
+}
+
+.simplefilter li.active {
+    background-color: #3b2882;
+    color: white;
+}
+
+.simplefilter li {
+    background: white;
+}
+
+.btn-show {
+    padding-bottom: 20px;
+}
+
+.btn-show button {
+    background-color: #3b2882;
+    color: white;
+    padding: 0 2rem;
+    border: none;
+    width: 159px;
+    height: 29px;
+}
+
+.paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+
+.counter-box {
+    color: #fff;
+    text-align: center;
+}
+
+.counter-num .count {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.content-2 h2 {
+    position: relative;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #3b2882;
+    font-size: 24px;
+    font-family: UTM Avo;
+}
+
+.content-2 {
+    margin-top: 25px;
+}
+
+.content-2 p {
+    font-family: 'UTM Neo Sans Intel';
+    font-size: 16px;
+}
+
+.content-2 h2::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    /* color: black; */
+    background: black;
+    top: 65%;
+    left: 30%;
+}
+
+.content-2 h2::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    /* color: black; */
+    background: black;
+    top: 65%;
+    right: 30%;
+}
+
+.day p {
+    display: inline-block;
+}
+
+.card-bd>.col-md-4 {
+    margin-bottom: 2rem;
+}
+
+.card-bd .col-md-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    border: 1px #eaeaea;
+    border-top: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-body p {
+    display: inline-block;
+    font-family: 'UTM Neo Sans Intel';
+    font-size: 16px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.chu-ky span {
+    display: block;
+    transform: translateY(140%);
+    font-weight: bold;
+}
+
+.carousel-caption button {
+    background: #3b2882;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.carousel-caption {
+    bottom: 40px;
+}
+
+.card-click button {
+    background: #3b2882;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    width: 111px;
+    height: 26px;
+}
+
+.hotline div {
+    display: inline-block;
+    word-break: break-word;
+    text-transform: uppercase;
+}
+
+.mail-subscribe {
+    text-transform: uppercase;
+    font-size: 14px;
+    /* font-family: OpenSans; */
+}
+
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 75%;
+}
+
+.useful-link ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.useful-link a {
+    /* font-family: Opensans; */
+    font-size: 14px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.useful-link ul {
+    padding: 0;
+}
+
+.useful-link h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+    font-family: 'UTMAlterGothic';
+    margin-top: 20px;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+
+#back-to-top:hover {
+    background: #e9ebec;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+
+#content {
+    height: 2000px;
+}
+
+.title span {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: UTM Avo;
+}
+
+.sub p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family: UTM Neo Sans Intel;
+}
+
+.sub span {
+    /* display: block; */
+    font-weight: normal;
+}
+
+.logo-footer img {
+    margin-top: 15px;
+}
+
+.sub-two p {
+    font-size: 13px;
+    display: -webkit-inline-box;
+}
+
+.submit input {
+    margin-top: 10px;
+    background: #3b2882;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 27px;
+    text-transform: uppercase;
+}
+
+.form-submit input {
+    background: #d7d5da;
+    border: none;
+}
+
+.footer {
+    background: #edebf1;
+}
+
+.footer-ft {
+    padding: 20px 0;
+}
+
+.copy-right {
+    background: #3b2882;
+}
+
+.fa-copyright {
+    color: white;
+}
+
+.copy-right span {
+    font-size: 13px;
+    color: white;
+}
+
+.image-right {
+    padding: 0 5px;
+}
+
+.row.chu-ky {
+    padding-top: 2rem;
+}
+
+.ct-top h1 {
+    font-family: UTM Avo;
+    font-size: 34px;
+}
+
+.ct-top-2 h3 {
+    font-family: UTM Avo bt;
+    font-size: 24px;
+}
+
+.overly img {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.overly-2 img {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: relative;
+    float: left;
+    margin-left: 40%;
+    /* margin: auto; */
+    margin-top: 15px;
+}
+
+.discript span {
+    position: absolute;
+    top: 9px;
+    font-size: 18px;
+    left: 25%;
+    font-weight: bold;
+    color: white;
+}
+
+.ccc a {
+    color: white;
+    text-decoration: none;
+}
+
+.ccc {
+    float: right;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.discript-1 span {
+    position: absolute;
+    top: 40px;
+    font-size: 18px;
+    left: 20%;
+    font-weight: bold;
+    color: white;
+}
+
+
+#side-menu .close {
+    margin-top: -15px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+.toggle{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+
+}
+#mySidenav{
+    background: white;
+    z-index: 10000;
+}
+.carousel-item img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+@media only screen and (max-width: 767px) {
+    .xMMenu-wrap-left {
+        display: block;
+    }
+    .buttonsetleft {
+        display: block;
+        float: right;
+    }
+    .icon-phone-clock {
+        display: none;
+    }
+    .language-search {
+        display: none;
+    }
+    .link-contact-header span {
+        font-size: 20px;
+    }
+    .link-contact-header {
+        text-align: center;
+    }
+    .hd_menu {
+        display: none;
+    }
+    .hd_title h2 {
+        font-size: 19px;
+        /* line-height: 1.5; */
+        padding-top: 5px;
+        text-align: center;
+    }
+    .ct-top h1 {
+        font-family: UTM Avo;
+        font-size: 23px;
+    }
+    .ct-top-2 h3 {
+        font-family: UTM Avo bt;
+        font-size: 20px;
+    }
+    .chu-ky span {
+        display: block;
+        transform: translateY(0%);
+        font-weight: bold;
+        text-align: center;
+    }
+    .content-2 h2::before {
+        display: none;
+    }
+    .content-2 h2::after {
+        display: none;
+    }
+    .overly {
+        width: 96%;
+    }
+    .simplefilter li {
+        padding: 0 15px;
+    }
+    .navbar img {
+        float: left;
+        width: 80%;
+    }
+    .counter-box {
+        padding: 24px;
+    }
+    .discript-1 span {
+        left: 24%;
+    }
+    .toggle{
+        display: block;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.bg-style-nav {
+    background-color: #ffff !important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}

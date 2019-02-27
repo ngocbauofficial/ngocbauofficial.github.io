@@ -1,0 +1,140 @@
+/* main styles
+===========================*/
+
+#menu-mobile {
+  z-index: 1000;
+  position: fixed;
+  top: 0px;
+  width: 350px;
+  height: 100%;
+  clear: both;
+  background-color: #d3d3d3;
+  padding: 0 40px;
+  overflow-y: scroll;
+}
+
+#menu-mobile.hidden {
+  visibility: hidden;
+}
+
+#menu-mobile.left {
+  left: 100%;
+  margin-left: 0px;
+  text-align: left;
+  background: #d3d3d3;
+  padding: 0;
+}
+
+#menu-mobile.right {
+  right: 100%;
+  margin-right: 0px;
+  text-align: right;
+}
+
+#menu-mobile ul {
+  list-style: none;
+  padding: 0;
+  margin-left: auto;
+  width: 100%;
+}
+
+#menu-mobile ul li a {
+  text-decoration: none;
+  display: block;
+  color: #666;
+  line-height: 36px;
+  margin-left: 20px;
+  border-bottom: 1px solid;
+  width: 58%;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-property: color;
+  -moz-transition-duration: 0.1s;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-property: color;
+  -ms-transition-duration: 0.1s;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-property: color;
+  -o-transition-duration: 0.1s;
+  -o-transition-timing-function: ease-out;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+  direction: ltr;
+}
+
+#menu-mobile ul li a:hover {
+  color: #fff;
+}
+
+#icon {
+  width: 140px;
+}
+
+#navside_icon {
+  z-index: 1000;
+  position: fixed;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #333333;
+  background: url(../img/icon.png) no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+#navside_icon.hidden {
+  visibility: hidden;
+}
+
+#navside_icon.right {
+  right: 10px;
+}
+
+#navside_icon.left {
+  left: 10px;
+  top: 10px
+}
+
+body {
+  background: brown;
+}
+
+section p {
+  margin: 0;
+  padding: 0;
+}
+
+#menu-mobile {
+  padding: 0 20px;
+}
+
+.dropdown, .dropdown2, .dropdown3,.dropdown4 {
+  display: none;
+  padding-left: 30px !important;
+}
+#sidebar-menu .login{
+  background: #d71920;
+}
+#sidebar-menu .login a{
+  color: white;
+  border: none;
+}
+@media only screen and (max-width: 769px) {
+  section p {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  header nav {
+    display: none;
+  }
+  #navside_icon {
+    display: none;
+  }
+}

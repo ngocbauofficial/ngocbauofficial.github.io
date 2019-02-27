@@ -1,0 +1,47 @@
+.link-contact-header a{
+color:#979798;
+padding-left: 10px;
+}
+.input-search{
+    border: none;
+    background: none;
+    border-bottom: 1px solid;
+}
+.language-col , .language-col:hover{
+text-decoration: none;
+color:black;
+
+}
+.link-contact-header span{
+    color:#979798;
+}
+.icon-search{
+    color:#3c2983;
+}
+.icon-phone-clock{
+    color:#3c2983;
+    padding-top: 5px;
+}
+.link-contact-header{
+    padding-top: 5px;
+}
+.language-search {
+    padding-top: 5px;
+}
+.language-search a{
+    padding-left: 20px;
+}
+.input-search:focus{
+    outline: none;
+}
+@font-face{
+    font-family: UTM Flavour;
+    src: url(../font/UTMFlavour.ttf);
+}
+.carousel-caption h5{
+    font-family: UTM Flavour;
+    font-size: 48pt;
+}
+.icon-phone-clock *{
+    padding-left:5px;
+}

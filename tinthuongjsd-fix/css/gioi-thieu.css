@@ -1,0 +1,121 @@
+.gt_title h2 {
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 1.5%;
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+.gt_title {
+    color: #0072bc;
+    text-transform: uppercase;
+    font-family: OpenSans-Semibold;
+}
+.wrapergt_body {
+    padding-top: 35px;
+    width: 100%;
+    float: left;
+    padding-bottom: 10%;
+}
+.gt_title h2:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 5%;
+    border-top: solid 3px #0072bc;
+}
+article.gt_summary {
+    color: #06c;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-bottom: 4%;
+    text-align: justify;
+    width: 100%;
+    line-height: 40px;
+}
+.brochure_title {
+    color: #333;
+    font-size: 25px;
+    font-family: UTMAlterGothic;
+    padding-right: 10px;
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+}
+.col40 {
+    width: 40%;
+    float: left;
+}
+.col60 {
+    width: 60%;
+    float: left;
+}
+.col100 {
+    width: 100%!important;
+    float: left;
+}
+.wrapper_brochure {
+    width: 100%;
+    float: left;
+    display: table;
+    text-align: right;
+    padding-bottom: 15px;
+}
+.brochure_img {
+    width: 100%;
+    float: left;
+    width: 50%;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    text-transform: uppercase;
+}
+.icon_brochure {
+    display: table;
+    width: 100%;
+    float: left;
+}
+article.gt_body {
+    width: 100%;
+    font-size: 17px;
+    color: #333;
+}
+.padding-right1 {
+    padding-right: 1%;
+}
+
+.col50 {
+    width: 50%;
+    float: left;
+}
+.gt_img {
+    padding-bottom: 8%;
+    width: 100%;
+}
+.gt_total:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: solid 1px #ccc;
+}
+article.gt_total {
+    color: #333;
+    font-size: 17px;
+    position: relative;
+    padding-top: 3%;
+    line-height: 30px;
+    float: left;
+}
+.ytp-cued-thumbnail-overlay-image {
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
