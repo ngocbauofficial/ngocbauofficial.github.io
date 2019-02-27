@@ -540,6 +540,7 @@ height:100%;
     }
     .simplefilter li {
         padding: 0 10px;
+        white-space: nowrap;
     }
     .navbar img {
         float: left;
