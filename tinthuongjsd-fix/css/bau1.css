@@ -643,6 +643,7 @@ a:hover {
 .service-right-menu li {
     padding: 5px 0;
 }
+
 @media only screen and (max-width: 600px){
     .news_icon_cover span{
         font-size: 12px;
@@ -653,6 +654,19 @@ a:hover {
         text-align: center;
         padding-top: 30px;
         font-size: 12px;
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .news_icon_cover span{
+        font-size: 10px;
+    }
+    .news_button_detail {
+        float: left;
+        /* width: 100%; */
+        text-align: center;
+        padding-top: 30px;
+        font-size: 10px;
         padding-bottom: 30px;
     }
 }
