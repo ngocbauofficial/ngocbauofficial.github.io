@@ -1,0 +1,45 @@
+.footer-contact{
+    margin-bottom: 20px;
+    display: inline-flex;
+}.title-footer p{
+    font-size: 13px;
+}
+@media screen and (max-width: 767px) {
+    .title-footer p{
+        font-size: 14px;
+    }
+    .sub-two p{
+        margin:0;
+    }
+    .footer-contact-2,.footer-contact-3{
+        padding-left: 15%;
+    }
+    .image-right{
+        padding:0px 2% !important;
+    }
+}
+@media screen and (max-width: 425px) {
+  
+    .footer-contact-2,.footer-contact-3{
+        padding-left: 16%;
+    }
+    
+}
+.image-right{
+    padding:0px 1% ;
+}
+@media screen and (max-width: 992px) {
+  
+    .search-title{
+        font-size:17px;
+    }
+    
+}
+#Keyword{
+    position: relative;
+    width:100%;
+}
+.btn-search-kw-2{
+position: absolute;
+left: -56px;
+}

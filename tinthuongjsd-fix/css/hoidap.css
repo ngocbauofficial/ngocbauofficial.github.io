@@ -74,6 +74,7 @@
     padding-bottom: 25px;
     margin: auto;
     font-size: 15px;
+    font-family: UTM Neo Sans Intel;
 }
 
 .toogle_icon_question:hover {
@@ -111,6 +112,7 @@
     margin: 0;
     color: #333;
     text-transform: none;
+    font-family: UTM Neo Sans Intel;
 }
 
 .hd_content_question:before {
@@ -131,8 +133,12 @@
     text-decoration: none;
     color: #333;
     font-size: 15px;
+    font-family: UTM Avo bt;
 }
-
+.hd_title h2{
+    font-family: UTM Avo bt;
+    font-weight: bold;
+}
 .hd_menu_active {
     color: #fdbf2a!important;
 }

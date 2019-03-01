@@ -19,6 +19,7 @@
     text-decoration: none;
     color: #333;
     font-size: 15px;
+    font-family: UTM Avo bt;
 }
 .hd_menu ul li:not(:first-of-type) {
     padding-right: 20px;
@@ -42,7 +43,7 @@
     line-height: 24px;
     font-size: 14px;
     color: #666666;
-    font-family: UTMAvo;
+    font-family: UTM Neo Sans Intel;
     min-height: 72px;
 }
 .custom_image img {
@@ -54,7 +55,8 @@
 .news_concept_01 .news_title a {
     line-height: 26px;
     font-size: 15px;
-    font-family: OpenSans-Bold;
+    font-family: UTM Avo bt;
+    font-weight: bold;
     text-transform: uppercase;
     color: #333333;
 }
@@ -86,6 +88,7 @@
 .news_view_all label {
     position: relative;
     padding: 0 40px;
+    font-family: UTM Avo bt;
 }
 label {
     display: inline-block;
@@ -112,6 +115,20 @@ label {
     border-bottom: 1px solid #cccccc;
     width: 300px;
     right: 100%;
+}
+#Keyword{
+    position: relative;
+    width:100%;
+}
+.btn-search-kw-2{
+position: absolute;
+left: -56px !important;
+}
+.section-2{
+    margin-bottom: 20px;
+}
+.container-fluid{
+    padding: 0 !important;
 }
 /* ***********************************/
 

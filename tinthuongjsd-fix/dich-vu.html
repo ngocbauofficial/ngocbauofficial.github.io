@@ -54,34 +54,42 @@
             </div>
 
             <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="img-fluid"></a>
-                    <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light bg-style-nav">
+                    <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="img-fluid" class="img-fluid"></a>
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button> -->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item aaa">
-                                <a class="nav-link dropdown" href="#">about us <i class="fas fa-angle-down"></i></a>
-                                <!-- <div class="menu-vl2">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <a href="">link 1</a>
-                                        </div>
-                                        <div class="col-3">
-                                            <a href="">link 1</a>
-                                        </div>
-                                        <div class="col-3">
-                                            <a href="">link 1</a>
-                                        </div>
-                                        <div class="col-3">
-                                            <a href="">link 1</a>
-                                        </div>
-                                    </div>
-                                </div> -->
+                            <li class="nav-item aaa dropdown">
+                                <a class="nav-link " href="gioi-thieu.html">about us <i class="fas fa-angle-down"></i></a>
+
+                                <ul class="lv2">
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    
+                                </ul>
+
+
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">product <i class="fas fa-angle-down"></i></a>
+                            <li class="nav-item aaa dropdown">
+                                <a class="nav-link " href="#">Product <i class="fas fa-angle-down"></i></a>
+                                <ul class="lv2">
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a>
+                                    </li>
+                                    
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">department</a>
@@ -89,8 +97,17 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">our factory</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">new <i class="fas fa-angle-down"></i></a>
+                            <li class="nav-item aaa dropdown">
+                                <a class="nav-link " href="tin-tuc.html">New <i class="fas fa-angle-down"></i></a>
+                                <ul class="lv2">
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    <li><a href="">link 1</a></li>
+                                    
+                                </ul>
+
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">contact</a>
@@ -98,12 +115,17 @@
                         </ul>
                     </div>
                 </nav>
+            </div>
+            </nav>
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Contact</a>
+                    <a href="index.html">Home</a>
+                    <a href="gioi-thieu.html">About us <i class="fas fa-angle-down"></i></a>
+                    <a href="hoi-dap.html">Product <i class="fas fa-angle-down"></i></a>
+                    <a href="#">Department</a>
+                    <a href="dich-vu.html">Our factory</a>
+                    <a href="tin-tuc.html">New <i class="fas fa-angle-down"></i></a>
+                    <a href="lien-he.html">Contact</a>
                 </div>
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="toggle">&#9776</span>
             </div>
@@ -112,7 +134,7 @@
         <div class="slide-lienhe">
             <div class="container-fluid">
                 <div class="lienhe-img-div">
-                    <img src="img/Dich-vu.png">
+                    <img src="img/Dich-vu.png" class="img-fluid">
 
                 </div>
             </div>
@@ -139,7 +161,7 @@
                                 <input value="Tra cứu tiến độ hồ sơ" class="select" aria_describedby="basic-addon2"
                                     readonly="readonly">
                                 <span class="input-group-btn">
-                                    <button class="btn btn-search-kw" type="submit" onclick="location.href='http://quatest3.com.vn/ketqua';"><i
+                                    <button class="btn btn-search-kw " type="submit" onclick="location.href='http://quatest3.com.vn/ketqua';"><i
                                             class="fa fa-mouse-pointer "></i></button>
                                 </span>
                             </div>
@@ -173,7 +195,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 search-title-box">
                         <span class="search-title">Theo Lĩnh vực Sản phẩm </span>
                         <div class="select-down">
                             <select class="select" id="GroupId" name="GroupId">
@@ -195,7 +217,7 @@
                             <input aria-describedby="basic-addon2" class="select" id="Keyword" name="Keyword" type="text"
                                 value="">
                             <span class="input-group-btn">
-                                <button class="btn btn-search-kw" type="submit"><i class="fa fa-search"></i></button>
+                                <button class="btn btn-search-kw btn-search-kw-2" type="submit"><i class="fa fa-search"></i></button>
                             </span>
                         </div>
                     </div>
@@ -203,7 +225,7 @@
             </div>
         </section>
         <section>
-            <div class="container">
+            <div class="container section-2">
                 <div class="row ">
                     <div class="col-md-6">
                         <h4 class="sevirce-title">DỊCH VỤ THEO LOẠI DỊCH VỤ</h4>
@@ -214,10 +236,10 @@
 
 
 
-                            <div class="col-md-4  service-group-img">
+                            <div class="col-lg-4 col-md-12 col-sm-12  service-group-img">
                                 <img src="img/thu-nghiem.png">
                             </div>
-                            <div class="col-md-8 service-group-detail">
+                            <div class="col-lg-8 col-md-12 col-sm-12 service-group-detail">
                                 <span>
                                     THỬ NGHIỆM CHẤT LƯỢNG, AN TOÀN SP, HH
                                 </span>
@@ -234,10 +256,10 @@
 
 
 
-                            <div class="col-md-4  service-group-img">
+                            <div class="col-lg-4 col-md-12 col-sm-12  service-group-img">
                                 <img src="img/thu-nghiem.png">
                             </div>
-                            <div class="col-md-8 service-group-detail">
+                            <div class="col-lg-8 col-md-12 col-sm-12 service-group-detail">
                                 <span>
                                     THỬ NGHIỆM CHẤT LƯỢNG, AN TOÀN SP, HH
                                 </span>
@@ -254,10 +276,10 @@
 
 
 
-                            <div class="col-md-4  service-group-img">
+                            <div class="col-lg-4 col-md-12 col-sm-12 service-group-img">
                                 <img src="img/thu-nghiem.png">
                             </div>
-                            <div class="col-md-8 service-group-detail">
+                            <div class="col-lg-8 col-md-12 col-sm-12 service-group-detail">
                                 <span>
                                     THỬ NGHIỆM CHẤT LƯỢNG, AN TOÀN SP, HH
                                 </span>
@@ -281,10 +303,10 @@
 
 
 
-                            <div class="col-md-4  service-group-img">
+                            <div class="col-lg-4 col-md-12 col-sm-12 service-group-img">
                                 <img src="img/thu-nghiem.png">
                             </div>
-                            <div class="col-md-8 service-group-detail">
+                            <div class="col-lg-8 col-md-12 col-sm-12 service-group-detail">
                                 <span>
                                     THỬ NGHIỆM CHẤT LƯỢNG, AN TOÀN SP, HH
                                 </span>
@@ -301,10 +323,10 @@
 
 
 
-                            <div class="col-md-4  service-group-img">
+                            <div class="col-lg-4 col-md-12 col-sm-12 service-group-img">
                                 <img src="img/thu-nghiem.png">
                             </div>
-                            <div class="col-md-8 service-group-detail">
+                            <div class="col-lg-8 col-md-12 col-sm-12 service-group-detail">
                                 <span>
                                     THỬ NGHIỆM CHẤT LƯỢNG, AN TOÀN SP, HH
                                 </span>
@@ -321,10 +343,10 @@
 
 
 
-                            <div class="col-md-4  service-group-img">
+                            <div class="col-lg-4 col-md-12 col-sm-12 service-group-img">
                                 <img src="img/thu-nghiem.png">
                             </div>
-                            <div class="col-md-8 service-group-detail">
+                            <div class="col-lg-8 col-md-12 col-sm-12 service-group-detail">
                                 <span>
                                     THỬ NGHIỆM CHẤT LƯỢNG, AN TOÀN SP, HH
                                 </span>
@@ -612,6 +634,17 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
+    </script>
+    <script>
+        jQuery(document).ready(function () {
+            $(".dropdown").hover(
+                function () {
+                    $('.dropdown-menu', this).fadeIn("fast");
+                },
+                function () {
+                    $('.dropdown-menu', this).fadeOut("fast");
+                });
+        });
     </script>
     <!-- end -->
 </body>

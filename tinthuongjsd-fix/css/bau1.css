@@ -68,8 +68,8 @@
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 800;
-    padding: 35px 15px 1px;
-    font-family: 'OpenSans-Bold';
+    padding: 35px 0 1px;
+    font-family: UTM Avo bt;
 }
 
 .ct-contact-title i:last-child {
@@ -123,6 +123,7 @@
 
 .ct-contact-title span, .ct-mail-phone-fax-title span {
     font-size: 18px;
+    font-family: UTM Neo Sans Intel;
 }
 
 .ct_title span {
@@ -132,9 +133,13 @@
     padding-top: 20px;
     font-size: 14px;
 }
+.detail_hot_headline span{
+    font-family: UTM Neo Sans Intel;
+}
 
 .contact-product span {
     font-size: 17px;
+    font-family: UTM Neo Sans Intel;
 }
 
 .contact-product {
@@ -174,6 +179,7 @@
     height: 75px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    font-family: UTM Neo Sans Intel;
 }
 
 .service-group-detail span {
@@ -181,7 +187,7 @@
     color: black;
     font-weight: 600;
     /* white-space: nowrap; */
-    font-family: 'OpenSans-Semibold';
+    font-family: UTM Avo bt;
     font-size: 15px;
     margin-top: 5px;
     text-transform: uppercase;
@@ -189,21 +195,22 @@
 
 .service-description span {
     display: block;
-    font-size: 21px !important;
+    font-size: 20px !important;
     text-align: justify;
     color: #06c;
     padding-top: 2%;
-    text-align: justify;
+    font-family: UTM Avo bt;
+    font-weight: bold;
 }
 
 .service-description span:first-child {
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 
 .search-keyword-sevirce input {
     background-color: #ebebeb;
     text-align: center;
-    font-family: UTMAvoBold;
+    font-family: UTM Avo bt;
     font-size: 18px;
     text-transform: uppercase;
     width: 80%;
@@ -227,7 +234,7 @@
 }
 
 .search-keyword-style input {
-    width: 86%;
+    width: 75%;
 }
 
 .search-keyword-style {
@@ -267,6 +274,7 @@
 .sevirce-title {
     margin-top: 13%;
     margin-bottom: 5%;
+    font-family: UTM Avo bt;
 }
 
 .service-group-img img {
@@ -375,8 +383,9 @@
 }
 
 .search-title {
-    font-size: 18px;
-    margin-bottom: 10px
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-family: UTM Neo Sans Intel;
 }
 
 .spnon_banner {
@@ -403,7 +412,7 @@
 
 .spnon_banner .hd_group_title h2 {
     font-size: 32px;
-    font-family: UTMAvoBold;
+    font-family: UTM Avo bt;
     text-transform: uppercase!important;
     padding: 0;
     margin-top: 0;
@@ -447,9 +456,12 @@
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: OpenSans-Semibold;
+    font-family: UTM Avo bt;
 }
-
+.news-detail-body h1{
+    font-size: 2rem;
+    font-family: UTM Avo bt;
+}
 .news-detail-icon {
     padding-top: 8px;
     border-bottom: solid 1px #ccc;
@@ -497,6 +509,7 @@
     text-transform: uppercase;
     text-decoration: none;
     color: black;
+    font-family: UTM Neo Sans Intel;
 }
 
 .bt_Prev_news:after {
@@ -519,14 +532,22 @@
 
 .detail_hot_title {
     font-size: 18px;
-    font-family: OpenSans-Semibold;
+    font-family: UTM Avo bt;
     text-transform: uppercase;
     border-bottom: solid 1px #ccc;
     margin-bottom: 15px;
     padding-bottom: 15px;
     position: relative;
 }
-
+.news_detail_summary p{
+    font-family: UTM Neo Sans Intel;
+}
+.news-detail-body li{
+    font-family: UTM Neo Sans Intel;
+}
+.news-detail-body p{
+    font-family: UTM Neo Sans Intel;
+}
 .detail_hot_title:before {
     position: absolute;
     content: "";
@@ -613,6 +634,7 @@ ul.serv_right_menu li {
 
 .service-right-menu>li>a {
     text-transform: uppercase;
+    font-family: UTM Neo Sans Intel;
 }
 
 .service-right-menu a {
@@ -644,8 +666,8 @@ a:hover {
     padding: 5px 0;
 }
 
-@media only screen and (max-width: 600px){
-    .news_icon_cover span{
+@media only screen and (max-width: 600px) {
+    .news_icon_cover span {
         font-size: 12px;
     }
     .news_button_detail {
@@ -656,9 +678,16 @@ a:hover {
         font-size: 12px;
         padding-bottom: 30px;
     }
+    .news-detail-body h1 {
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    
 }
-@media only screen and (max-width: 320px){
-    .news_icon_cover span{
+
+@media only screen and (max-width: 320px) {
+    .news_icon_cover span {
         font-size: 10px;
     }
     .news_button_detail {
@@ -669,4 +698,5 @@ a:hover {
         font-size: 10px;
         padding-bottom: 30px;
     }
+    
 }
