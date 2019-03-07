@@ -12,7 +12,13 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/site-icons.css">
+    <link rel="stylesheet" href="css/jquery.mobile-menu.css">
+    <link rel="stylesheet" href="css/style1.css">
 </head>
 
 <body>
@@ -22,10 +28,10 @@
             <div class="container">
                 <div class="header row ">
                     <div class="logo col-md-3 ">
-                        <a href=""><img src="images/logo-fix.png" alt="" class="img-fluid"></a>
+                        <a href=""><img src="images/logo.png" alt="" class="img-fluid"></a>
                     </div>
                     <div class=" title-header col-md-6">
-                        <a href="#"><span>Tìm dễ, chọn mua càng dễ</span></a>
+                        <a href="#"><span>Tìm dễ, chọn dễ mua càng dễ</span></a>
                     </div>
                     <div class="call-contact col-md-3">
                         <img class="img-icon img-fluid" src="images/icon-web/icon-call.png" alt="">
@@ -67,35 +73,476 @@
                         </form>
                     </div>
                 </nav>
+                <!-- menu-mobile -->
+                <div id="overlay"></div>
+                <div id="page">
+                    <div class="mm-toggle-wrap">
+                        <div class="mm-toggle">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="container">
+                    </div>
+                </div>
+                <div id="mobile-menu">
+                    <ul>
+                        <li>
+                            <div class="mm-search">
+                                <form id="search" name="search">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
+                                        </div>
+                                        <input type="text" class="form-control simple" placeholder="Search ..." name="srch-term"
+                                            id="srch-term">
+
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home">
+                                <a href="#"><i class="fas fa-home"></i></i>giới thiệu</a>
+                            </div>
+                        </li>
+                        <li><a href="#">sản phẩm</a>
+                            <ul>
+                                <li><a href="#">miếng dán cường lực</a>
+                                    <ul>
+                                        <li><a href="#">cường lực iphone</a></li>
+                                        <li><a href="#">cường lực samsung</a></li>
+                                        <li><a href="#">cường lực nokia</a></li>
+                                        <li><a href="#">cường lực xiaomi</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">cóc sạc</a>
+                                    <ul>
+                                        <li><a href="#">cóc sạc iphone</a></li>
+                                        <li><a href="#">cóc sạc samsung</a></li>
+                                        <li><a href="#">cóc sạc nokia</a></li>
+                                        <li><a href="#">cóc sạc xiaomi</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">tai nghe</a>
+                                    <ul>
+                                        <li><a href="#">tai nghe iphone</a></li>
+                                        <li><a href="#">tai nghe samsung</a></li>
+                                        <li><a href="#">tai nghe nokia</a></li>
+                                        <li><a href="#">tai nghe xiaomi</a></li>
+                                    </ul>
+                                </li>
+                                <!-- <li><a href="#">Our Values</a></li>
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Events</a> -->
+
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="#">dịch vụ</a>
+
+                    </li>
+                    <li><a href="#">bảng giá</a>
+
+                    </li>
+                    <li><a href="#">tin tức</a>
+
+                    </li>
+                    <li><a href="#">liên hệ</a>
+                    </li>
+
+                    </ul>
+                </div> <!-- /#rmm   -->
+
             </div>
         </div>
         <!-- carousel  -->
-        <div class="banner-mid">
-            <div class="row">
+        <div class="banner-mid container">
+            <div class=" row">
                 <div class="aaa col-md-8">
                     <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <a href="#"><img src="images/banner.png" alt="" class="img-fluid"></a>
+                        </div>
                         <div class="item">
                             <a href="#"><img src="images/banner.png" alt="" class="img-fluid"></a>
                         </div>
                     </div>
                 </div>
                 <div class=" col-md-4 row">
-                    <div class="banner-left col-md-12">
-                        <a href="#"><img src="images/banner-1.png" alt="" class="img-fluid"></a>
+                    <div class="banner-left col-md-12 col-xs-6">
+                        <a href="#"><img src="images/gif.gif" alt="" class="img-fluid"></a>
                     </div>
-                    <div class=" banner-left col-md-12">
+                    <div class=" banner-left col-md-12  col-xs-6">
                         <a href="#"><img src="images/banner-2.png" alt="" class="img-fluid"></a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- end -->
+        <div class="nd-body container">
+            <div class="row">
+                <div class="product col-md-3 ">
+                    <span class="text-center">Danh mục sản phẩm</span>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="" class="title">Hàng mới vê</a></li>
+                            <li><a href="" class="title">Khuyến mãi</a></li>
+                            <li><a href="" class="title">Không lo về giá</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <a href="">
+                            <h5>Miếng dán cường lực</h5>
+                        </a>
+                        <div class="sub">
+                            <ul class="menu-lv2">
+                                <li><a href=""><i class="fas fa-angle-right"></i> Cường lực iphone</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Cường lực samsung</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Cường lực nokia</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Cường lực xiaomi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="">
+                            <h5>Cóc sạc</h5>
+                        </a>
+                        <div class="sub">
+                            <ul class="menu-lv2">
+                                <li><a href=""><i class="fas fa-angle-right"></i> Cóc sạc iphone</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Cóc sạc samsung</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Cóc sạc nokia</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Cóc sạc xiaomi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="">
+                            <h5>Tai nghe</h5>
+                        </a>
+                        <div class="sub">
+                            <ul class="menu-lv2">
+                                <li><a href=""><i class="fas fa-angle-right"></i> Tai phone iphone</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Tai phone iphone</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Tai phone iphone</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Tai phone iphone</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Tai phone iphone</a></li>
+                                <li><a href=""><i class="fas fa-angle-right"></i> Tai phone iphone</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sub">
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="show-right col-md-9 ">
+                    <div class="hide row">
+                        <div class="col-md-3">
+                            <div class="click-1 www">
+                                <div class="aaa">
+                                    <img src="images/icon-web/Untitled-2.png" alt="" class=" d-block ">
+                                </div>
+                                <div class="title-top">
+                                    <a href="">Dán cường lực</a>
+                                </div>
+                            </div>
+                            <div class="click-1 www">
+                                <div class="aaa">
+                                    <img src="images/icon-web/moto.png" alt="" class=" d-block img-fluid">
+                                </div>
+                                <div class="title-top">
+                                    <a href="">Du lịch, phượt</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="click-1 www">
+                                <div class="aaa">
+                                    <img src="images/icon-web/moto.png" alt="" class=" d-block img-fluid">
+                                </div>
+                                <div class="title-top">
+                                    <a href="">Thiết bị âm thanh</a>
+                                </div>
+                            </div>
+                            <div class="click-1 www">
+                                <div class="aaa">
+                                    <img src="images/icon-web/Untitled-2.png" alt="" class=" d-block img-fluid">
+                                </div>
+                                <div class="title-top">
+                                    <a href="">Đồ gia dụng</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="click-1 www">
+                                <div class="aaa">
+                                    <img src="images/icon-web/car.png" alt="" class=" d-block img-fluid">
+                                </div>
+                                <div class="title-top">
+                                    <a href="">Phụ kiện ô tô</a>
+                                </div>
+                            </div>
+                            <div class="click-1 www">
+                                <div class="aaa">
+                                    <img src="images/icon-web/Untitled-2.png" alt="" class=" d-block img-fluid">
+                                </div>
+                                <div class="title-top">
+                                    <a href="">Phụ kiện laptop</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="click-1 www">
+                                <div class="aaa">
+                                    <img src="images/icon-web/du.png" alt="" class=" d-block img-fluid">
+                                </div>
+                                <div class="title-top">
+                                    <a href="">Camera</a>
+                                </div>
+                            </div>
+                            <div class="click-1 www">
+                                <div class="aaa">
+                                    <img src="images/icon-web/Untitled-2.png" alt="" class=" d-block img-fluid">
+                                </div>
+                                <div class="title-top">
+                                    <a href="">loa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- menu-mobile-2 -->
+                    <div class="responsive">
+
+                        <div class="click-1 www">
+                            <div class="aaa">
+                                <img src="images/icon-web/car.png" alt="" class=" d-block img-fluid">
+                            </div>
+                            <div class="title-top">
+                                <a href="">Phụ kiện ô tô</a>
+                            </div>
+                        </div>
+                        <div class="click-1 www">
+                            <div class="aaa">
+                                <img src="images/icon-web/car.png" alt="" class=" d-block img-fluid">
+                            </div>
+                            <div class="title-top">
+                                <a href="">Phụ kiện ô tô</a>
+                            </div>
+                        </div>
+                        <div class="click-1 www">
+                            <div class="aaa">
+                                <img src="images/icon-web/car.png" alt="" class=" d-block img-fluid">
+                            </div>
+                            <div class="title-top">
+                                <a href="">Phụ kiện ô tô</a>
+                            </div>
+                        </div>
+                        <div class="click-1 www">
+                            <div class="aaa">
+                                <img src="images/icon-web/car.png" alt="" class=" d-block img-fluid">
+                            </div>
+                            <div class="title-top">
+                                <a href="">Phụ kiện ô tô</a>
+                            </div>
+                        </div>
+                        <div class="click-1 www">
+                            <div class="aaa">
+                                <img src="images/icon-web/car.png" alt="" class=" d-block img-fluid">
+                            </div>
+                            <div class="title-top">
+                                <a href="">Phụ kiện ô tô</a>
+                            </div>
+                        </div>
+                        <div class="click-1 www">
+                            <div class="aaa">
+                                <img src="images/icon-web/car.png" alt="" class=" d-block img-fluid">
+                            </div>
+                            <div class="title-top">
+                                <a href="">Phụ kiện ô tô</a>
+                            </div>
+                        </div>
+                        <div class="click-1 www">
+                            <div class="aaa">
+                                <img src="images/icon-web/car.png" alt="" class=" d-block img-fluid">
+                            </div>
+                            <div class="title-top">
+                                <a href="">Phụ kiện ô tô</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="part-2 row">
+                        <div class="col-md-4">
+                            <div class="part-2-col">
+                                <img src="images/icon-web/lachan.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="sub-content">
+                                <p>đảm bảo chất lượng</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="part-2-col">
+                                <img src="images/icon-web/xe.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="sub-content">
+                                <p>giao hàng hanh</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="part-2-col">
+                                <img src="images/icon-web/dongxu.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="sub-content">
+                                <p>không lo về giá</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hang-moi-ve">
+                        <span>hàng mới về</span>
+                    </div>
+                    <div class="slide-body">
+                        <div class="your-class">
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-body">
+                        <div class="your-class">
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-all">
+                        <a href="">xem thêm</a>
+                    </div>
+                    <div class="clear-fix"></div>
+                    <div class="hang-moi-ve">
+                        <span>khuyến mãi</span>
+                    </div>
+                    <div class="slide-body">
+                        <div class="your-class">
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                                <div class="overly">giảm 20%</div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                                <div class="overly">giảm 20%</div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                                <div class="overly">giảm 20%</div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                </div>
+                                <div class="overly">giảm 20%</div>
+                            </div>
+                            <div class="item">
+                                <a href=""><img src="images/hinh-body.jpg" alt="" class="img-fluid"></a>
+                                <div class="sub-img">
+                                    <a href="">Cáp remax 2 in 1</a>
+                                    <span>75.000đ</span>
+                                    <div class="overly">giảm 20%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-all">
+                        <a href="">xem thêm</a>
+                    </div>
+                    <div class="clear-fix"></div>
+                </div>
+
+            </div>
+        </div>
         <footer>
             <div class="footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
-                            <a href="#"><img src="images/logo-fix.png" alt="" class="img-fluid"></a>
+                        <div class="img-logo-footer col-md-4">
+                            <a href="#"><img src="images/logo.png" alt="" class="img-fluid"></a>
                         </div>
                         <div class="bbb col-md-4">
                             <div class="title-top">
@@ -104,7 +551,7 @@
                             <div class="info">
                                 <p>126 Đỗ Xuân Hợp, P Phước Long A, Quận 9</p>
                                 <a href=""> <span>0937084675</span></a><br>
-                                <a href=""><span>hienphukien007@gmail.com</span></a> 
+                                <a href=""><span>hienphukien007@gmail.com</span></a>
                                 <a href=""><span>linhkiendaiphat.com</span></a>
                             </div>
                         </div>
@@ -131,30 +578,134 @@
 
 
     <!-- import lib -->
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.mobile-menu.min.js"></script>
     <script src="lib/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $("#mobile-menu").mobileMenu({
+                MenuWidth: 250,
+                SlideSpeed: 300,
+                WindowsMaxWidth: 767,
+                PagePush: true,
+                FromLeft: false,
+                Overlay: true,
+                CollapseMenu: true,
+                ClassName: "mobile-menu"
+            });
+        });        
+    </script>
     <script>
         $('.owl-carousel').owlCarousel({
             loop: true,
             margin: 10,
-            nav: true,
+            // nav: true,
+            autoplay: true,
+            dot: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
             responsive: {
                 0: {
                     items: 1
                 },
                 600: {
-                    items: 3
+                    items: 1
                 },
                 1000: {
                     items: 1
                 }
             }
         })
+    </script>
+    <script>
+        $('.your-class').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: false,
+            centerMode: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: false,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: false
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+    <script>
+        $('.responsive').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            autoplay:false,
+            loop:true,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
     </script>
 </body>
 
