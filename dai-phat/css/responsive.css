@@ -22,7 +22,7 @@
         display: none;
     }
     .banner-left{
-        display: none;
+        margin: 10px;
     }
     .responsive{
         display: block !important;

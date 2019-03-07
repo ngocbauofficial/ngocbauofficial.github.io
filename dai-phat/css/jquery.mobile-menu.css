@@ -189,6 +189,7 @@ html {
   text-decoration: none;
   padding: 10px;
   padding-left: 15px;
+  text-transform: capitalize;
 }
 .mobile-menu li a.active {
   color: #fca001;
