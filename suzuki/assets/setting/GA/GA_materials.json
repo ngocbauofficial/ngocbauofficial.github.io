@@ -2,48 +2,52 @@
 	"EXT": [
 		{
 			"layer" : 0,
-			"material" : "EXT-GRD_GLX-BG_A-BC_CB",
-			"items" : ["GRD_GLX","BG_A","BC_CB"]
+			"material" : "EXT-GRD_GA-BG_A-BC_CB",
+			"items" : ["GRD_GA","BG_A","BC_CB"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_GLX-BG_A-BC_SY",
-			"items" : ["GRD_GLX","BG_A","BC_SY"]
+			"material" : "EXT-GRD_GA-BG_A-BC_SY",
+			"items" : ["GRD_GA","BG_A","BC_SY"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_GLX-BG_A-BC_RP",
-			"items" : ["GRD_GLX","BG_A","BC_RP"]
+			"material" : "EXT-GRD_GA-BG_A-BC_RP",
+			"items" : ["GRD_GA","BG_A","BC_RP"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_GLX-BG_A-BC_SW",
-			"items" : ["GRD_GLX","BG_A","BC_SW"]
+			"material" : "EXT-GRD_GA-BG_A-BC_SW",
+			"items" : ["GRD_GA","BG_A","BC_SW"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_GLX-BG_A-BC_PW",
-			"items" : ["GRD_GLX","BG_A","BC_PW"]
+			"material" : "EXT-GRD_GA-BG_A-BC_PW",
+			"items" : ["GRD_GA","BG_A","BC_PW"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_GLX-BG_A-BC_SS",
-			"items" : ["GRD_GLX","BG_A","BC_SS"]
+			"material" : "EXT-GRD_GA-BG_A-BC_SS",
+			"items" : ["GRD_GA","BG_A","BC_SS"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_GLX-BG_A-BC_MG",
-			"items" : ["GRD_GLX","BG_A","BC_MG"]
+			"material" : "EXT-GRD_GA-BG_A-BC_MG",
+			"items" : ["GRD_GA","BG_A","BC_MG"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_GLX-BG_A-BC_SB",
-			"items" : ["GRD_GLX","BG_A","BC_SB"]
+			"material" : "EXT-GRD_GA-BG_A-BC_SB",
+			"items" : ["GRD_GA","BG_A","BC_SB"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_GLX-BG_A-BC_AR",
-			"items" : ["GRD_GLX","BG_A","BC_AR"]
+			"material" : "EXT-GRD_GA-BG_A-BC_AR",
+			"items" : ["GRD_GA","BG_A","BC_AR"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_001-BG_A",
+			"items" : ["WH_001","BG_A"]
+		},{
+			"layer" : 1,
+			"material" : "EXT-WH_002-BG_A",
+			"items" : ["WH_002","BG_A"]
 		},{
 			"layer" : 1,
 			"material" : "EXT-WH_003-BG_A",
 			"items" : ["WH_003","BG_A"]
-		},{
-			"layer" : 1,
-			"material" : "EXT-WH_004-BG_A",
-			"items" : ["WH_004","BG_A"]
 		},{
 			"layer" : 1,
 			"material" : "EXT-WH_005-BG_A",
