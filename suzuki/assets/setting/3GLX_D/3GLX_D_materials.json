@@ -2,60 +2,60 @@
 	"EXT": [
 		{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_YL",
-			"items" : ["GRD_5GLX_D","BG_A","BC_YL"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_YL",
+			"items" : ["GRD_3GLX_D","BG_A","BC_YL"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_SW",
-			"items" : ["GRD_5GLX_D","BG_A","BC_SW"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_SW",
+			"items" : ["GRD_3GLX_D","BG_A","BC_SW"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_CW",
-			"items" : ["GRD_5GLX_D","BG_A","BC_CW"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_CW",
+			"items" : ["GRD_3GLX_D","BG_A","BC_CW"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_SV",
-			"items" : ["GRD_5GLX_D","BG_A","BC_SV"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_SV",
+			"items" : ["GRD_3GLX_D","BG_A","BC_SV"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_GR",
-			"items" : ["GRD_5GLX_D","BG_A","BC_GR"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_GR",
+			"items" : ["GRD_3GLX_D","BG_A","BC_GR"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_BK",
-			"items" : ["GRD_5GLX_D","BG_A","BC_BK"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_BK",
+			"items" : ["GRD_3GLX_D","BG_A","BC_BK"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_BW",
-			"items" : ["GRD_5GLX_D","BG_A","BC_BW"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_BW",
+			"items" : ["GRD_3GLX_D","BG_A","BC_BW"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_RD",
-			"items" : ["GRD_5GLX_D","BG_A","BC_RD"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_RD",
+			"items" : ["GRD_3GLX_D","BG_A","BC_RD"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_AGR",
-			"items" : ["GRD_5GLX_D","BG_A","BC_AGR"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_AGR",
+			"items" : ["GRD_3GLX_D","BG_A","BC_AGR"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_BL",
-			"items" : ["GRD_5GLX_D","BG_A","BC_BL"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_BL",
+			"items" : ["GRD_3GLX_D","BG_A","BC_BL"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_YL_WH",
-			"items" : ["GRD_5GLX_D","BG_A","BC_YL_WH"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_YL_WH",
+			"items" : ["GRD_3GLX_D","BG_A","BC_YL_WH"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_BK_WH",
-			"items" : ["GRD_5GLX_D","BG_A","BC_BK_WH"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_BK_WH",
+			"items" : ["GRD_3GLX_D","BG_A","BC_BK_WH"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_BW_WH",
-			"items" : ["GRD_5GLX_D","BG_A","BC_BW_WH"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_BW_WH",
+			"items" : ["GRD_3GLX_D","BG_A","BC_BW_WH"]
 		},{
 			"layer" : 0,
-			"material" : "EXT-GRD_5GLX_D-BG_A-BC_BL_WH",
-			"items" : ["GRD_5GLX_D","BG_A","BC_BL_WH"]
+			"material" : "EXT-GRD_3GLX_D-BG_A-BC_BL_WH",
+			"items" : ["GRD_3GLX_D","BG_A","BC_BL_WH"]
 		},{
 			"layer" : 1,
 			"material" : "EXT-W_002-BG_A",
@@ -94,8 +94,8 @@
 			"items" : ["A_001"]
 		},{
 			"layer" : 3,
-			"material" : "EXT-B_001",
-			"items" : ["B_001"]
+			"material" : "EXT-B_002",
+			"items" : ["B_002"]
 		},{
 			"layer" : 4,
 			"material" : "EXT-C_001-BC_YL",
@@ -526,48 +526,48 @@
 			"items" : ["N_003"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_013",
-			"items" : ["O_013"]
+			"material" : "EXT-O_001",
+			"items" : ["O_001"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_014",
-			"items" : ["O_014"]
+			"material" : "EXT-O_002",
+			"items" : ["O_002"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_015",
-			"items" : ["O_015"]
+			"material" : "EXT-O_003",
+			"items" : ["O_003"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_016",
-			"items" : ["O_016"]
+			"material" : "EXT-O_004",
+			"items" : ["O_004"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_017",
-			"items" : ["O_017"]
+			"material" : "EXT-O_005",
+			"items" : ["O_005"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_018",
-			"items" : ["O_018"]
+			"material" : "EXT-O_006",
+			"items" : ["O_006"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_019",
-			"items" : ["O_019"]
+			"material" : "EXT-O_007",
+			"items" : ["O_007"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_020",
-			"items" : ["O_020"]
+			"material" : "EXT-O_008",
+			"items" : ["O_008"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_021",
-			"items" : ["O_021"]
+			"material" : "EXT-O_009",
+			"items" : ["O_009"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_022",
-			"items" : ["O_022"]
+			"material" : "EXT-O_010",
+			"items" : ["O_010"]
 		},{
 			"layer" : 17,
-			"material" : "EXT-O_023",
-			"items" : ["O_023"]
+			"material" : "EXT-O_011",
+			"items" : ["O_011"]
 		},{
 			"layer" : 18,
 			"material" : "EXT-Q_001",
@@ -672,7 +672,7 @@
 	"INT": [
 		{
 			"layer" : 0,
-			"material" : "INT-INT_BASE_5GLX-BG_A",
-			"items" : ["INT_BASE_5GLX","BG_A"]
+			"material" : "INT-INT_BASE_3GLX-BG_A",
+			"items" : ["INT_BASE_3GLX","BG_A"]
 		}]
 }}
